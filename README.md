@@ -15,7 +15,8 @@ PhytoTec é uma aplicação full-stack para uma farmácia de plantas medicinais.
 - Java
 - Spring Boot
 - Spring Data JPA
-- H2 Database 
+- H2 Database (dev)
+- PostgreSQL (prod)
 
 ## Funcionalidades
 
