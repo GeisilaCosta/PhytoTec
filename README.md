@@ -15,7 +15,7 @@ PhytoTec é uma aplicação full-stack para uma farmácia de plantas medicinais.
 - Java
 - Spring Boot
 - Spring Data JPA
-- H2 Database (ou outro banco de dados à sua escolha)
+- H2 Database 
 
 ## Funcionalidades
 
@@ -61,9 +61,4 @@ Recebe os dados do formulário e adiciona uma nova planta à lista.
 #### GET /items/search
 Pesquisa plantas por indicação.
 
-## Critérios de Avaliação
 
-1. Funcionalidade: A aplicação deve cumprir todos os requisitos funcionais descritos.
-2. Usabilidade: A interface deve ser intuitiva e fácil de usar.
-3. Código: O código deve ser bem estruturado e organizado.
-4. Boas Práticas: Adoção de boas práticas de desenvolvimento tanto no front-end quanto no back-end.
