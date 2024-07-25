@@ -1,5 +1,4 @@
 # PhytoTec
-# PhytoTec
 
 PhytoTec é uma aplicação full-stack para uma farmácia de plantas medicinais. O objetivo é fornecer uma interface intuitiva para listar e cadastrar plantas medicinais com todas as suas informações relevantes.
 
