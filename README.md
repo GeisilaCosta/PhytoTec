@@ -45,6 +45,21 @@ Recebe os dados do formulário e adiciona uma nova planta à lista.
 #### GET /items/search
 Pesquisa plantas por indicação.
 
+## Configuração do Ambiente de Desenvolvimento
 
+### Banco de Dados H2 (Desenvolvimento)
+
+O H2 é um banco de dados em memória ou arquivo que é ótimo para desenvolvimento e testes rápidos.
+
+#### Arquivo `V1__create-table-plants.sql`
+
+Este arquivo é um script de migração que cria a tabela `plants` no banco de dados. Ele é parte de uma estratégia de controle de versão de banco de dados usando Flyway. Coloque este arquivo na pasta `src/main/resources/db/migration`.
+
+```sql
+CREATE TABLE plants (
+  id SERIAL PRIMARY KEY,
+  title TEXT NOT NULL,
+  image TEXT
+);
 
 
