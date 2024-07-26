@@ -51,15 +51,15 @@ Pesquisa plantas por indicação.
 
 O H2 é um banco de dados em memória ou arquivo que é ótimo para desenvolvimento e testes rápidos.
 
-#### Arquivo `V1__create-table-plants.sql`
+### Arquivos SQL
+--dump.sql--
+O arquivo dump.sql contém um backup dos dados do banco de dados. Para restaurar os dados, execute o seguinte comando:
 
-Este arquivo é um script de migração que cria a tabela `plants` no banco de dados. Ele é parte de uma estratégia de controle de versão de banco de dados usando Flyway. Coloque este arquivo na pasta `src/main/resources/db/migration`.
+mysql -u postegres -p plants < dump.sql
 
-```sql
-CREATE TABLE plants (
-  id SERIAL PRIMARY KEY,
-  title TEXT NOT NULL,
-  image TEXT
-);
+--V1__create-table-plants.sql--
+O arquivo V1__create-table-plants.sql é uma migração que cria a tabela plants. Para aplicar essa migração, execute:
+
+mysql -u postgres -p plants < V1__create-table-plants.sql
 
 
