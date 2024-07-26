@@ -47,7 +47,7 @@ Pesquisa plantas por indicação.
 
 ## Configuração do Ambiente de Desenvolvimento
 
-### Banco de Dados H2 (Desenvolvimento)
+### Banco de Dados: H2  ou PostgreSQL 
 
 O H2 é um banco de dados em memória ou arquivo que é ótimo para desenvolvimento e testes rápidos.
 
