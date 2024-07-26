@@ -28,9 +28,9 @@ PhytoTec é uma aplicação full-stack para uma farmácia de plantas medicinais.
 - Pesquisa: Permite buscar plantas por indicação.
 
 ### Backend:
-- GET /items: Retorna a lista de plantas cadastradas.
-- POST /items: Recebe os dados do formulário e adiciona uma nova planta à lista.
-- GET /items/search: Pesquisa plantas por indicação.
+- GET /plants: Retorna a lista de plantas cadastradas.
+- POST /plants: Recebe os dados do formulário e adiciona uma nova planta à lista.
+- GET /plants/search: Pesquisa plantas por indicação.
 
 ## Documentação da API
 
