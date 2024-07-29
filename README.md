@@ -62,4 +62,5 @@ O arquivo V1__create-table-plants.sql é uma migração que cria a tabela plants
 
 mysql -u postgres -p plants < V1__create-table-plants.sql
 
-
+###### Exemplos de dados (Json) para inserir no insominia | postman
+- - exemplos para serem iseridos um a um
